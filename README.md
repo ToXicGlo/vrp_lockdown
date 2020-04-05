@@ -16,9 +16,9 @@
 
 There is 2 Config Files!
 
-config.lua = English Version of the script
+config.lua = English Language
 
-configDA.lua = Danish Version of the script
+configDA.lua = Danish Language
 
 # If you want to change to the other config file, Just simple rename the config file you want to use to "config.lua"
 
