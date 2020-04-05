@@ -8,6 +8,6 @@
 
 3. Go to server.cfg
 
-4. Type ""start vrp_lockdown""
+4. Type start vrp_lockdown
 
 # DONE!
