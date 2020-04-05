@@ -1,4 +1,4 @@
-# vRP_Lockdow
+# vRP_Lockdown
 
 # Setup Guide:
 
