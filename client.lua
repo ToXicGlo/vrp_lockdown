@@ -79,7 +79,6 @@ AddEventHandler('ToXicGlo:Lockdown', function()
     TriggerEvent("mhacking:show")
     TriggerEvent("mhacking:start",7,60,mycb)
 	exports['mythic_notify']:DoCustomHudText('inform', Config.FindCode, 5000)
-    robbed = true
 end)
 
 -- Activates the Lockdown
