@@ -105,7 +105,7 @@ function mycb(success, timeremaining)
 		ClearPedTasks(PlayerPedId())
 		Cooldown = true
         TriggerEvent('mhacking:hide')
-        exports['mythic_notify']:DoCustomHudText('error', Config.LockdownFAILED, 5000)--notify_message("~r~You failed to hack the doors")
+        exports['mythic_notify']:DoCustomHudText('error', Config.LockdownFAILED, 5000)
 	end
 end
 
