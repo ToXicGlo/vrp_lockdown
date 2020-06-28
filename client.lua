@@ -116,7 +116,7 @@ AddEventHandler("datacrack", function()
 	exports['mythic_notify']:DoCustomHudText('inform', Config.LockdownIn5Sec, 3000)
 	Citizen.Wait(5000)
 	exports['mythic_notify']:DoCustomHudText('success', Config.LockdownACTIVE, 10000)
-	TriggerEvent('ToXicGlo:AktiverLockdown')
+	TriggerServerEvent('ToXicGlo:SendLockdown')
 end)
 
 -- Sets blip on marker to the Police Officers
