@@ -4,6 +4,11 @@ local Proxy = module("vrp", "lib/Proxy")
 vRP = Proxy.getInterface("vRP")
 vRPclient = Tunnel.getInterface("vRP","vrp_lockdown")
 
+RegisterServerEvent("ToXicGlo:SendLockdown")
+AddEventHandler("ToXicGlo:SendLockdown", function()
+	TriggerClientEvent('ToXicGlo:AktiverLockdown', -1)
+end)
+
 RegisterServerEvent("ToXicGlo:Lockdown")
 AddEventHandler("ToXicGlo:Lockdown", function()
 	local user_id = vRP.getUserId({source})
